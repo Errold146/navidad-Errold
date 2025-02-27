@@ -1,0 +1,35 @@
+body {
+    background-color: #FAFAFA;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #FFD700 !important; /* Cambia el color a dorado en hover */
+    text-decoration: underline; /* Subraya el texto en hover */
+}
+
+.social-icons a:hover {
+    color: #FFD700 !important; /* Cambia el color a dorado en hover */
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: #000; /* Cambia el color del fondo de los íconos */
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    filter: invert(1); /* Invertir colores para una mejor visibilidad */
+}
+
+.carousel-inner {
+    max-width: 100%; 
+}
+
+.visually-hidden {
+    display: none; 
+}
+
+.footer a:hover {
+    color: #FFD700 !important; /* Enlaces dorados en hover */
+}
+
