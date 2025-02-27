@@ -1,196 +1,302 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.8.1/font/bootstrap-icons.min.css">
-    <link rel="stylesheet" href="./styles/index.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.8.1/font/bootstrap-icons.min.css"
+    />
+    <link rel="stylesheet" href="./styles/index.css" />
     <link rel="icon" href="img/christmas-145319.svg"">
     <title>Navidad - Errold</title>
-</head>
-<body>
-
+  </head>
+  <body>
+    <!--Muy bien identada tu tarea . DB-->
     <!-- Header start -->
     <header>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-danger">
+      <nav class="navbar navbar-expand-lg navbar-dark bg-danger">
         <div class="container-fluid">
-            <!-- Logo -->
-            <a class="navbar-brand" href="index.html">
-                <img src="/img/christmas-145319.svg" alt="Imagen Navidad" class="d-inline-block align-text-top" height="30">
+          <!-- Logo -->
+          <a class="navbar-brand" href="index.html">
+            <img
+              src="/img/christmas-145319.svg"
+              alt="Imagen Navidad"
+              class="d-inline-block align-text-top"
+              height="30"
+            />
+          </a>
+
+          <!-- Menu button for mobile view -->
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <!-- Menu items -->
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a
+                  class="nav-link active text-white"
+                  aria-current="page"
+                  href="#navidad"
+                  >Navidad</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#recetas">Recetas</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="/contacto.html"
+                  >Contacto</a
+                >
+              </li>
+            </ul>
+          </div>
+
+          <!-- Social media icons -->
+          <div class="d-flex align-items-center social-icons">
+            <a
+              href="https://www.facebook.com/SantaClausOficial"
+              class="text-white mx-2"
+            >
+              <i class="bi bi-facebook"></i>
             </a>
-    
-            <!-- Menu button for mobile view -->
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-    
-            <!-- Menu items -->
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a class="nav-link active text-white" aria-current="page" href="#navidad">Navidad</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-white" href="#recetas">Recetas</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-white" href="/contacto.html">Contacto</a>
-                    </li>
-                </ul>
-            </div>
-    
-            <!-- Social media icons -->
-            <div class="d-flex align-items-center social-icons">
-                <a href="https://www.facebook.com/SantaClausOficial" class="text-white mx-2">
-                    <i class="bi bi-facebook"></i>
-                </a>
-                <a href="https://twitter.com/SantaClausTweets" class="text-white mx-2">
-                    <i class="bi bi-twitter"></i>
-                </a>
-                <a href="https://www.instagram.com/SantaClausFotos" class="text-white mx-2">
-                    <i class="bi bi-instagram"></i>
-                </a>
-            </div>
+            <a
+              href="https://twitter.com/SantaClausTweets"
+              class="text-white mx-2"
+            >
+              <i class="bi bi-twitter"></i>
+            </a>
+            <a
+              href="https://www.instagram.com/SantaClausFotos"
+              class="text-white mx-2"
+            >
+              <i class="bi bi-instagram"></i>
+            </a>
+          </div>
         </div>
-    </nav>
+      </nav>
     </header>
     <!-- Header end -->
 
     <!-- Main start -->
     <main>
-        <div class="overflow-hidden">
-            <img src="./img/navidad1.jpg" alt="Imagen navidad" class="img-fluid">
+      <div class="overflow-hidden">
+        <img src="./img/navidad1.jpg" alt="Imagen navidad" class="img-fluid" />
+      </div>
+
+      <!-- Tarjetas start -->
+      <section>
+        <div class="container my-4" id="navidad">
+          <div class="row">
+            <div class="col-md-3">
+              <div class="card shadow">
+                <img src="img/nav1.jpg" class="card-img-top" alt="Tarjeta 1" />
+                <div class="card-body">
+                  <h5 class="card-title text-primary">Tarjeta 1</h5>
+                  <p class="card-text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Perferendis doloremque totam molestias, ipsam quasi eveniet
+                    iusto blanditiis aliquid in ab.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="card shadow">
+                <img src="img/navi2.jpg" class="card-img-top" alt="Tarjeta 2" />
+                <div class="card-body">
+                  <h5 class="card-title text-primary">Tarjeta 2</h5>
+                  <p class="card-text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Perferendis doloremque totam molestias, ipsam quasi eveniet
+                    iusto blanditiis aliquid in ab
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="card shadow">
+                <img src="img/navi3.jpg" class="card-img-top" alt="Tarjeta 3" />
+                <div class="card-body">
+                  <h5 class="card-title text-primary">Tarjeta 3</h5>
+                  <p class="card-text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Perferendis doloremque totam molestias, ipsam quasi eveniet
+                    iusto blanditiis aliquid in ab
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="card shadow">
+                <img src="img/navi4.jpg" class="card-img-top" alt="Tarjeta 4" />
+                <div class="card-body">
+                  <h5 class="card-title text-primary">Tarjeta 4</h5>
+                  <p class="card-text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Perferendis doloremque totam molestias, ipsam quasi eveniet
+                    iusto blanditiis aliquid in ab
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
+      </section>
+      <!-- Tarjetas end -->
 
-        <!-- Tarjetas start -->
-        <section>
-            <div class="container my-4" id="navidad">
-                <div class="row">
-                    <div class="col-md-3">
-                        <div class="card shadow ">
-                            <img src="img/nav1.jpg" class="card-img-top" alt="Tarjeta 1">
-                            <div class="card-body">
-                                <h5 class="card-title text-primary">Tarjeta 1</h5>
-                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis doloremque totam molestias, ipsam quasi eveniet iusto blanditiis aliquid in ab.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-3">
-                        <div class="card shadow">
-                            <img src="img/navi2.jpg" class="card-img-top" alt="Tarjeta 2">
-                            <div class="card-body">
-                                <h5 class="card-title text-primary">Tarjeta 2</h5>
-                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis doloremque totam molestias, ipsam quasi eveniet
-                                iusto blanditiis aliquid in ab</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-3">
-                        <div class="card shadow ">
-                            <img src="img/navi3.jpg" class="card-img-top" alt="Tarjeta 3">
-                            <div class="card-body">
-                                <h5 class="card-title text-primary">Tarjeta 3</h5>
-                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis doloremque totam molestias, ipsam quasi eveniet
-                                iusto blanditiis aliquid in ab</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-3">
-                        <div class="card shadow ">
-                            <img src="img/navi4.jpg" class="card-img-top" alt="Tarjeta 4">
-                            <div class="card-body">
-                                <h5 class="card-title text-primary">Tarjeta 4</h5>
-                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis doloremque totam molestias, ipsam quasi eveniet
-                                iusto blanditiis aliquid in ab</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+      <!-- Carousel start -->
+      <section class="mb-5" id="recetas">
+        <h3 class="text-center text-primary">Recetas Navideñas</h3>
+        <div
+          id="carouselExampleIndicators"
+          class="carousel slide"
+          data-bs-ride="carousel"
+        >
+          <div class="carousel-indicators">
+            <button
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="0"
+              class="active"
+              aria-current="true"
+              aria-label="Slide 1"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="1"
+              aria-label="Slide 2"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="2"
+              aria-label="Slide 3"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="3"
+              aria-label="Slide 4"
+            ></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="d-flex justify-content-center">
+                <iframe
+                  width="560"
+                  height="315"
+                  src="https://www.youtube.com/embed/1LB6h4s9Bx0?si=26bb9XngJXftUaK4"
+                  title="YouTube video player"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  referrerpolicy="strict-origin-when-cross-origin"
+                  allowfullscreen
+                ></iframe>
+              </div>
             </div>
-        </section>
-        <!-- Tarjetas end -->
-
-        <!-- Carousel start -->
-        <section class="mb-5" id="recetas">
-            <h3 class="text-center text-primary">Recetas Navideñas</h3>
-            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
-                <div class="carousel-indicators">
-                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
-                        aria-current="true" aria-label="Slide 1"></button>
-                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
-                        aria-label="Slide 2"></button>
-                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
-                        aria-label="Slide 3"></button>
-                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
-                        aria-label="Slide 4"></button>
-                </div>
-                <div class="carousel-inner">
-                    <div class="carousel-item active">
-                        <div class="d-flex justify-content-center">
-                            <iframe width="560" height="315" src="https://www.youtube.com/embed/1LB6h4s9Bx0?si=26bb9XngJXftUaK4"
-                                title="YouTube video player" frameborder="0"
-                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                        </div>
-                    </div>
-                    <div class="carousel-item">
-                        <div class="d-flex justify-content-center">
-                            <iframe width="560" height="315" src="https://www.youtube.com/embed/YOFjD4FhfUM?si=_2xtVLe5i1fX1w6k"
-                                title="YouTube video player" frameborder="0"
-                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                        </div>
-                    </div>
-                    <div class="carousel-item">
-                        <div class="d-flex justify-content-center">
-                            <iframe width="560" height="315" src="https://www.youtube.com/embed/Fp9ORyjmDL4?si=8Ey8LEa8olznyfma"
-                                title="YouTube video player" frameborder="0"
-                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                        </div>
-                    </div>
-                    <div class="carousel-item">
-                        <div class="d-flex justify-content-center">
-                            <iframe width="560" height="315" src="https://www.youtube.com/embed/UHBYGJnnT-g?si=hA52uLp7S1eaytBB"
-                                title="YouTube video player" frameborder="0"
-                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                        </div>
-                    </div>
-                </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
-                    data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
-                    data-bs-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Next</span>
-                </button>
+            <div class="carousel-item">
+              <div class="d-flex justify-content-center">
+                <iframe
+                  width="560"
+                  height="315"
+                  src="https://www.youtube.com/embed/YOFjD4FhfUM?si=_2xtVLe5i1fX1w6k"
+                  title="YouTube video player"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  referrerpolicy="strict-origin-when-cross-origin"
+                  allowfullscreen
+                ></iframe>
+              </div>
             </div>
-        </section>
-        <!-- Carousel end -->
-
-
+            <div class="carousel-item">
+              <div class="d-flex justify-content-center">
+                <iframe
+                  width="560"
+                  height="315"
+                  src="https://www.youtube.com/embed/Fp9ORyjmDL4?si=8Ey8LEa8olznyfma"
+                  title="YouTube video player"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  referrerpolicy="strict-origin-when-cross-origin"
+                  allowfullscreen
+                ></iframe>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="d-flex justify-content-center">
+                <iframe
+                  width="560"
+                  height="315"
+                  src="https://www.youtube.com/embed/UHBYGJnnT-g?si=hA52uLp7S1eaytBB"
+                  title="YouTube video player"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  referrerpolicy="strict-origin-when-cross-origin"
+                  allowfullscreen
+                ></iframe>
+              </div>
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </section>
+      <!-- Carousel end -->
     </main>
     <!-- Main end -->
 
     <!-- Footer start -->
     <footer class="bg-danger text-white text-center py-3">
-        <div class="container d-flex justify-content-center align-items-center">
-            <img src="/img/christmas-145319.svg" alt="Logo Navidad" class="me-2" height="30">
-            <p class="mb-0">&copy; <span id="current-year"></span> - <a href="mailto:errold222@gmail.com"
-                    class="text-white">Errold Núñez Sánchez</a>
-            </p>
-        </div>
+      <div class="container d-flex justify-content-center align-items-center">
+        <img
+          src="/img/christmas-145319.svg"
+          alt="Logo Navidad"
+          class="me-2"
+          height="30"
+        />
+        <p class="mb-0">
+          &copy; <span id="current-year"></span> -
+          <a href="mailto:errold222@gmail.com" class="text-white"
+            >Errold Núñez Sánchez</a
+          >
+        </p>
+      </div>
     </footer>
     <!-- Footer end -->
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
     <script src="./JavaScript/index.js"></script>
-
-</body>
+  </body>
 </html>
